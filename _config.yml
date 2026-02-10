@@ -1,3 +1,9 @@
-theme: jekyll-theme-minimal
-title: Summy's homepage
-description: Bookmark this to keep an eye on my project updates!
+theme: minima
+title: Summy
+description: Computer Science Student
+
+collections:
+  projects:
+    output: true
+
+markdown: kramdown
