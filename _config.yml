@@ -1,9 +1,5 @@
-theme: minima
 title: Summy
-description: Computer Science Student
 
 collections:
   projects:
     output: true
-
-markdown: kramdown

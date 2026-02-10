@@ -1,0 +1,80 @@
+:root {
+    --bg-main: #f7f9f8;
+    --bg-card: #ffffff;
+    --accent-green: #b8d8c7;
+    --accent-blue: #cfe6f3;
+    --accent-purple: #e1d8f3;
+    --text-main: #2f3e3a;
+    --text-muted: #6b7c77;
+    --border-soft: #e6eeea;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 2rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: var(--bg-card);
+    padding: 1.75rem;
+    border-radius: 14px;
+    border: 1px solid var(--border-soft);
+    transition: transform 0.15s ease, box-shadow: 0.15s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px #111;
+}
+
+.tag {
+    display: inline-block;
+    background: var(--accent-purple);
+    color: #3d2f5e;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+}
+
+.header-accent {
+    background: radial-gradient(
+        circle at top left,
+        var(--accent-blue),
+        transparent 70%
+    );
+}
+
+body {
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    background: var(--bg-main);
+    color: var(--text-main);
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+a {
+    color: #4f8f7a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3b7aa3;
+}

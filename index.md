@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Hi, I'm Summy
+## Hi, I'm Summy
 
 I'm a computer science student interested in:
 - Software Engineering
@@ -10,4 +10,4 @@ I'm a computer science student interested in:
 
 [View my projects](/projects)
 
-Reach me on GitHub or [LinkedIn]({{https://www.linkedin.com/in/sumayyah-mohd-azmi-62778b124/}})
+Reach me on [GitHub](https://github.com/summyre) or [LinkedIn](https://www.linkedin.com/in/sumayyah-mohd-azmi-62778b124/)
