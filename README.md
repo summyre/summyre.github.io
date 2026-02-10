@@ -23,7 +23,7 @@ University of Lincoln
 ---
 
 ## Projects
-I'm cuilding a portfolio of personal and university projects here:
+I'm building a portfolio of personal and university projects here:
 **[View my projects on my website](https://summyre.github.io/)
 
 ## Currently Learning
